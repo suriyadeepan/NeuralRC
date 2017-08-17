@@ -1,0 +1,48 @@
+blockquote {
+  border-left: 0.3em solid rgba(0,0,0,0.5);
+  padding: 0 15px;
+  font-style: italic;
+}
+
+.blackslide {
+	background-color: #110c11;
+	color: #eeeeee;
+}
+
+a:link, a:visited {
+    color: hotpink;
+		text-decoration : none;
+}
+
+a:hover, a:active {
+    color: #ff0910;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+	font-size: 14px;
+}
+
+.author { 
+
+	font-size : 15px;
+	font-style : italic;
+	color : #aaaaaa;
+
+}
